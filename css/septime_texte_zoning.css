@@ -1,0 +1,75 @@
+/* reset d'Eric*/
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#conteneur {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #fff;
+}
+
+header {
+    /* background-color: orange; */
+    height: 250px;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+    height: 300px;
+    text-align: center;
+}
+
+.sous-section {
+    /* background-color: grey; */
+    height: 500px;
+    width: 500px;
+    padding-top: 170px;
+    float: left;
+    /* box-sizing: border-box; */
+}
+
+.img-assiette {
+    background: url("../img/assiette.png") no-repeat;
+    /* image au centre  */
+    object-position: 50% 50%;
+}
+
+.img-resto-01 {
+    background-image: url("../img/resto_01_grande.jpg");
+    /* image au centre */
+    /* object-position: 50% 50%; */
+    background-position: center;
+    background-size: cover;
+}
+
+.img-resto-02 {
+    background: url("../img/resto_02.jpg") no-repeat;
+     /* image au centre */
+     object-position: 50% 50%;
+}
+
+.img-resto-03 {
+    background: url("../img/resto_03.jpg") no-repeat;
+     /* image au centre */
+     object-position: 50% 50%;
+}
+
+.img-resto-04 {
+    background: url("../img/resto_04.jpg") no-repeat;
+     /* image au centre */
+     object-position: 50% 50%;
+}
+
+.clear {
+    clear: both;
+}
