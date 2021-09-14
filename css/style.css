@@ -1,5 +1,5 @@
 /* reset d'Eric*/
-@import url("reset.css");
+@import url("reset_eric_meyer.css");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
@@ -19,7 +19,7 @@ body {
 
 /* en-tête de page  */
 header {
-    background-color: orange;
+    /* background-color: orange; */
     height: 200px;
     width: 500px;
     margin: auto;
